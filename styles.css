@@ -1,0 +1,42 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+    background-image:  url(img/fondo.jpg) ;
+    background-size: 105%;
+    animation: movimiento 6s infinite linear alternate;
+    background-position: center;
+    color: blanchedalmond; 
+}
+@keyframes movimiento {
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+    
+}
+.logo {
+    height: 60px;
+    margin-top: 20px;
+}
+.text-description{
+    letter-spacing: 2px;
+    font-family: 'Merriweather', serif;
+}
+.form-control{
+    background: transparent !important;
+    color: whitesmoke !important;
+}
+a .fab{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+}
